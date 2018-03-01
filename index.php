@@ -1,6 +1,7 @@
 <html>
 	<head >
 		<title>Cerca Film</title>
+		
 		<style>
 			p{
 				margin-top: 10%;

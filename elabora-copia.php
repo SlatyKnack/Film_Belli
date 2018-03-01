@@ -28,15 +28,12 @@
 				function film($moviesList,$n)// stampa di tutti i dati del film
 				{
 					//GLOBAL $_SESSION['MoviesList'];
-					echo '<table border="1" cellspacing="0" cellpadding="0"> ';
-					echo '<tr>';
-					echo  '<td rowspan="2" ><a href="singleFilm.php?p='.$n.'"><img src='.$moviesList[$n]['image'].' height="198" ></a></td>';   		///Immagine del film
-					echo '<td align="left"><b> '.$moviesList[$n]['title']['original'].'</b></td>';		///Titolo Oroginale
-					echo '</tr>';
+					echo  '<img src='.$moviesList[$n]['image'].' height="268" width="182"><br/><br/>';   		///Immagine del film
+					echo '<b>Titolo</b><br/><b>---Originale: </b> '.$moviesList[$n]['title']['original'];		///Titolo Oroginale
 					
-				//	if(trim($moviesList[$n]['title']['original']) != trim($moviesList[$n]['title']['locale']))	///se il titolo originale è diverso a quello
-				//		echo '<br/><b>---Locale: </b>'.$moviesList[$n]['title']['locale'];						///locale stampo anche il locale
-				/*
+					if(trim($moviesList[$n]['title']['original']) != trim($moviesList[$n]['title']['locale']))	///se il titolo originale è diverso a quello
+						echo '<br/><b>---Locale: </b>'.$moviesList[$n]['title']['locale'];						///locale stampo anche il locale
+				
 					echo '<br/><br/><b>Anno: </b>'.$moviesList[$n]['year'];			///anno
 					echo '<br/><br/><b>Durata: </b>'.$moviesList[$n]['lengt'];		///Durata
 					echo '<br/><br/><b>Paese: </b>'.$moviesList[$n]['country'];		///Paese
@@ -47,10 +44,8 @@
 						if($nomi != false)
 							echo '<br/>--- '.$nomi;
 					}
-					*/
-					echo '<tr><td><b>Trama: </b><br/>'.$moviesList[$n]['plot'].'</td></tr>';		///Trama
+					echo '<br/><br/><b>Trama: </b><br/>'.$moviesList[$n]['plot'].'<br/><br/>';		///Trama
 					
-					echo '</table></br>';
 					return 1;							//ritorna 1 per capire se è stato stampato un Film o meno
 				}
 				

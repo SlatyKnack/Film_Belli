@@ -1,0 +1,46 @@
+{
+    "lista": {
+        "Pippo": {
+            "cognome": "Maida",
+            "nome": "Claudio",
+            "user": "Pippo",
+            "password": "fa585d89c851dd338a70dcf535aa2a92fee7836dd6aff1226583e88e0996293f16bc009c652826e0fc5c706695a03cddce372f139eff4d13959da6f1f5d3eabe"
+        },
+        "xXPussyslayerXx": {
+            "cognome": "Maida",
+            "nome": "Pino",
+            "user": "xXPussyslayerXx",
+            "password": "fa585d89c851dd338a70dcf535aa2a92fee7836dd6aff1226583e88e0996293f16bc009c652826e0fc5c706695a03cddce372f139eff4d13959da6f1f5d3eabe"
+        },
+        "Mai": {
+            "cognome": "casm",
+            "nome": "sad",
+            "user": "Mai",
+            "password": "d9e6762dd1c8eaf6d61b3c6192fc408d4d6d5f1176d0c29169bc24e71c3f274ad27fcd5811b313d681f7e55ec02d73d499c95455b6b5bb503acf574fba8ffe85"
+        },
+        "Gattoinbuca": {
+            "cognome": "Maida",
+            "nome": "Claudio",
+            "user": "Gattoinbuca",
+            "password": "d9e6762dd1c8eaf6d61b3c6192fc408d4d6d5f1176d0c29169bc24e71c3f274ad27fcd5811b313d681f7e55ec02d73d499c95455b6b5bb503acf574fba8ffe85"
+        },
+        "Cavallino": {
+            "cognome": "a,smdn",
+            "nome": ",mndsa",
+            "user": "Cavallino",
+            "password": "6308d8f6a7ccc9f77e41be5331a52c71c0bb28ecbd4669b960d60dd505dfde9ddd7a30cd26bb308010b3819699daba7caeb791bf6a4153605fe56d1fd3d5df41"
+        },
+        "lkjalsjkdbk": {
+            "cognome": "slaihd",
+            "nome": "lskjad",
+            "user": "lkjalsjkdbk",
+            "password": "fe28805722e6ca01a6d56025069de666b13de9f4087e9c300eb5f00b69fdb23a9c89e267a2448b40477951617da40b06c2727139d4bfa61edefc4a3dff24470c"
+        },
+        "Raptus": {
+            "cognome": "Nolgo",
+            "nome": "Luca",
+            "user": "Raptus",
+            "password": "d5ea4b69fdb8b914b504646c063a1629683462bd11a1873a77e7611f254ce0d9cd2a2aa290ef01f49582e9dd54bbde98b38596156297b9f687bb8dc548ec8709"
+        }
+    }
+}

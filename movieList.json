@@ -8,7 +8,10 @@
         "year": 1983,
         "lengt": 117,
         "country": "usa",
-        "direction": "John Landis",
+        "like": 0,
+		"dislike": 0,
+		"trailer":"https://www.youtube.com/watch?v=FpYHwjqf22Y",
+		"direction": "John Landis",
         "starring": [
             "Eddie Murphy",
             "Dan Aykroyd",
@@ -28,6 +31,9 @@
         "year": 1990,
         "lengt": 99,
         "country": "usa",
+		"like": 0,
+		"dislike": 0,
+		"trailer":"https://www.youtube.com/watch?v=FpYHwjqf22Y",
         "direction": "Chris Colun\u00ecmbus",
         "starring": [
             "Macaulay Culkin"
@@ -43,6 +49,9 @@
         "year": 1992,
         "lengt": 120,
         "country": "usa",
+		"like": 0,
+		"dislike": 0,
+		"trailer":"https://www.youtube.com/watch?v=FpYHwjqf22Y",
         "direction": "Chris Colun\u00ecmbus",
         "starring": [
             "Macaulay Culkin"
@@ -58,6 +67,9 @@
         "year": 1999,
         "lengt": 118,
         "country": "usa",
+		"like": 0,
+		"dislike": 0,
+		"trailer":"https://www.youtube.com/watch?v=FpYHwjqf22Y",
         "direction": "Milos Forman",
         "starring": [
             "Jim Carrey",
@@ -76,6 +88,9 @@
         "year": 1998,
         "lengt": 103,
         "country": "usa",
+		"like": 0,
+		"dislike": 0,
+		"trailer":"https://www.youtube.com/watch?v=FpYHwjqf22Y",
         "direction": "Peter Weir",
         "starring": [
             "Jim Carrey",
@@ -95,6 +110,9 @@
         "year": 2016,
         "lengt": 108,
         "country": "usa",
+		"like": 0,
+		"dislike": 0,
+		"trailer":"https://www.youtube.com/watch?v=FpYHwjqf22Y",
         "direction": "Tim Miller",
         "starring": [
             "Ryan Reynolds",
@@ -115,6 +133,9 @@
         "year": 2017,
         "lengt": 118,
         "country": "usa",
+		"like": 0,
+		"dislike": 0,
+		"trailer":"https://www.youtube.com/watch?v=FpYHwjqf22Y",
         "direction": "Patrick Hughes",
         "starring": [
             "Ryan Reynolds",
@@ -124,24 +145,5 @@
             "Salma Hayek"
         ],
         "plot": "La guardia del corpo Michael Bryce vede la sua carriera stravolta in seguito all'omicidio di un suo cliente.\r\n\t\t\t\t\t   Egli riceve un giorno una chiamata dalla sua ex, l'agente dell'interpol Amelia Roussel che gli chiede aiuto \r\n\t\t\t\t\t   per far arrivare vivo fino al tribunale dell'AIA un importante testimone per il processo a carico di Vladislav Dukhovich,\r\n\t\t\t\t\t   sanguinario dittatore della Bielorussia ormai deposto. Il testimone \u00e8 Darius Kincaid, pericoloso killer di fama internazionale che,\r\n\t\t\t\t\t   ormai in carcere, accetta di testimoniare in cambio dell'assoluzione per la sua compagna, Sonia, ingiustamente detenuta ad Amsterdam."
-    },
-    {
-        "title": {
-            "original": "oberon",
-            "locale": "oberon"
-        },
-        "year": "2018",
-        "lengt": "123",
-        "country": "Italia",
-        "direction": "dunno",
-        "image": "https:\/\/upload.wikimedia.org\/wikipedia\/en\/thumb\/c\/cf\/Deadpool_2_poster.jpg\/220px-Deadpool_2_poster.jpg",
-        "plot": "dfasfdsafgasfasdfsdafasdfasdfa",
-        "starring": {
-            "1": "Tyler",
-            "2": false,
-            "3": false,
-            "4": false,
-            "5": false
-        }
     }
 ]

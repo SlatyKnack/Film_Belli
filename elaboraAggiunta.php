@@ -51,6 +51,8 @@
 				$movieList[$i]['direction']=$reg;
 				$movieList[$i]['image']=$imm;
 				$movieList[$i]['plot']=$pl;
+				$movieList[$i]['like']=0;
+				$movieList[$i]['dislike']=0;
 				///Inserimento attori
 				$movieList[$i]['starring'][1]=$a1;
 				$movieList[$i]['starring'][2]=$a2;
