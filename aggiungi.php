@@ -1,3 +1,6 @@
+<?php 
+	session_start();
+?>
 <html>
 	<head >
 		<title>Cerca Film</title>
@@ -92,7 +95,10 @@
 						</div>
 						
 						<div style="position: absolute; top: 297px; left: 320px;">
-						<h4>Trama</h4><textarea name="plot" cols="40" rows="5" required></textarea>
+							<h4>Trama</h4><textarea name="plot" cols="40" rows="5" required></textarea>
+						</div>
+						<div style="position: absolute; top: 460px; left: 320px;">
+							<h4>Immagine</h4><input type="text" name="Trailer" placeholder="url trailer"  required />
 						</div>
 						
 					

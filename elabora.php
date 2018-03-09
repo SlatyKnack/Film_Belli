@@ -1,3 +1,6 @@
+<?php 
+	session_start();
+?>
 <html>
 	<body bgcolor="lightgrey">
 		<title>Film</title>
@@ -28,7 +31,8 @@
 				function film($moviesList,$n)// stampa di tutti i dati del film
 				{
 					//GLOBAL $_SESSION['MoviesList'];
-					echo '<table border="1" cellspacing="0" cellpadding="0"> ';
+					
+					echo '<table border="1" cellspacing="0" cellpadding="0"  width="100%"> ';
 					echo '<tr>';
 					echo  '<td rowspan="2" ><a href="singleFilm.php?p='.$n.'"><img src='.$moviesList[$n]['image'].' height="198" ></a></td>';   		///Immagine del film
 					echo '<td align="left"><b> '.$moviesList[$n]['title']['original'].'</b></td>';		///Titolo Oroginale
@@ -106,7 +110,11 @@
 				}
 				
 				echo "<p>torna alla <a href='./'>home</a>!</p>";
-				echo "<p><a href='aggiungi.php'>Aggungi film</a></p>"
+				if($_SESSION["logged"])
+					echo "<p><a href='aggiungi.php'>Aggungi film</a></p>";
+				else{
+					echo "<p><a href='Needed.php?Error=Per+aggiungere+un+nuovo+film+accedere+oppure+iscriversi+!'>Aggungi film</a></p>";
+				}
 				
 			?>
 			

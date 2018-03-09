@@ -1,0 +1,18 @@
+{
+    "Utenti": {
+        "Knack": {
+            "Nome": "Madalin",
+            "Cognome": "Florin",
+            "Username": "Knack",
+            "Passowrd": "e4f52ae65c36441ffa0ce8555576f8a75fd4627f960d4512cfb9137318fc72846ff055d32ed4e629ae1feed692c004e1be775621e6d40a4474f9625c7ed38f37",
+            "Films": {
+                "nessunFilm": {
+                    "like": ""
+                },
+                "Trading Places": {
+                    "like": false
+                }
+            }
+        }
+    }
+}

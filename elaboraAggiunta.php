@@ -1,4 +1,6 @@
-
+<?php 
+	session_start();
+?>
 <html>
 	<body bgcolor="lightgrey">
 		<title>Film</title>
@@ -34,12 +36,15 @@
 				$pae=checkIndex($_REQUEST['Paese']);
 				$reg=checkIndex($_REQUEST['Regia']);
 				$pl=checkIndex($_REQUEST['plot']);
+				$trailer=checkIndex($_REQUEST['Trailer']);
+				
 				//Vreiabili attori
 				$a1=checkIndex($_REQUEST['Attore1']);
 				$a2=checkIndex($_REQUEST['Attore2']);
 				$a3=checkIndex($_REQUEST['Attore3']);
 				$a4=checkIndex($_REQUEST['Attore4']);
 				$a5=checkIndex($_REQUEST['Attore5']);
+				
 				
 				$i= count($movieList);
 				
@@ -53,6 +58,13 @@
 				$movieList[$i]['plot']=$pl;
 				$movieList[$i]['like']=0;
 				$movieList[$i]['dislike']=0;
+				
+				//causa casino con il file jason e altre cose che non tiesco a capire devo cambiare una parte della string del trailer
+				///https://www.youtube.com/watch?v=
+				
+				$trailer= str_replace('https://www.youtube.com/watch?v=', 'https://www.youtube.com/v/', $trailer);
+				
+				$movieList[$i]['trailer']=$trailer;				
 				///Inserimento attori
 				$movieList[$i]['starring'][1]=$a1;
 				$movieList[$i]['starring'][2]=$a2;

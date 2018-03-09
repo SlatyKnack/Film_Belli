@@ -1,3 +1,6 @@
+<?php 
+	session_start();
+?>
 <html>
 	<body bgcolor="lightgrey">
 		<title>Film</title>
@@ -29,16 +32,32 @@
 					//GLOBAL $_SESSION['MoviesList'];
 					echo  '<img src='.$moviesList[$n]['image'].' height="268" width="182">
 							<div style=" position:  absolute; left: 380px; top: 8px;">
-							<video height="235" controls>
-							<source src="'.$moviesList[$n]['trailer'].'" type="video/mp4">
-							</video></br>
+							
+							
+							<object height="245" width="430" data="'.$moviesList[$n]['trailer'].'" type="application/x-shockwave-flash">
+								<param name="src" value="'.$moviesList[$n]['trailer'].'" />
+							</object></br>';
+							
+					///location.reload(); <a href="singleFilm.php?p='.$n.'"><img src='.$moviesList[$n]['image'].' height="198" ></a>
+					
+						if($_SESSION["logged"]){
+							echo '<p>
+									<a href="like.php?p='.$n.'&v=0"><img src=Immagini/miPiace.png height="20" width="20"></a>'.$moviesList[$n]['like'].'
+									<a href="like.php?p='.$n.'&v=1"><img src=Immagini/nonMiPiace.png height="20" width="20"></a>'.$moviesList[$n]['dislike'].
+								  '</p>';
+							
+						}else{
+							echo'
 							<p>
-							<img src=Immagini/miPiace.png height="20" width="20">'.$moviesList[$n]['like'].'
-							<img src=Immagini/nonMiPiace.png height="20" width="20">'.$moviesList[$n]['dislike'].'
-							</p>
-							</div>							
-							<br/><br/>';   		///Immagine del film
-					echo '<b>Titolo</b><br/><b>---Originale: </b> '.$moviesList[$n]['title']['original'];		///Titolo Oroginale
+								<img src=Immagini/miPiace.png height="20" width="20">'.$moviesList[$n]['like'].'
+								<img src=Immagini/nonMiPiace.png height="20" width="20">'.$moviesList[$n]['dislike'].'</p>';
+								
+								
+						}
+							
+					echo	'</div>							
+							<br/><br/>   		
+							<b>Titolo</b><br/><b>---Originale: </b> '.$moviesList[$n]['title']['original'];		///Titolo Oroginale
 					
 					if(trim($moviesList[$n]['title']['original']) != trim($moviesList[$n]['title']['locale']))	///se il titolo originale è diverso a quello
 						echo '<br/><b>---Locale: </b>'.$moviesList[$n]['title']['locale'];						///locale stampo anche il locale
@@ -77,11 +96,13 @@
 				//echo "$n";
 				
 				echo "<p>torna alla <a href='./'>home</a>!</p>";
-				echo "<p><a href='aggiungi.php'>Aggungi film</a></p>"
 				
-				
-				
-				
+				if($_SESSION["logged"])
+					echo "<p><a href='aggiungi.php'>Aggungi film</a></p>";
+				else{
+					echo "<p><a href='Needed.php?Error=Per+aggiungere+un+nuovo+film+accedere+oppure+iscriversi+!'>Aggungi film</a></p>";
+				}
+
 				?>
 			
 	</head>
