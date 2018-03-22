@@ -41,6 +41,15 @@
 				<b><a href='Iscrizione.php'>Sign in!</a></b><br/>
 				<b><a href='Entra.php'>Log in!</a></b>
 			</div>	
+			<div style="   position: absolute;  bottom: -1%;   left: -1%; width: 125px;">
+			<?php
+				if($_SESSION["logged"])
+					echo "<p><a href='aggiungi.php'>Aggiungi film</a></p>";
+				else{
+					echo "<p><a href='Needed.php?Error=Per+aggiungere+un+nuovo+film+accedere+oppure+iscriversi+!'>Aggiungi film</a></p>";
+				}
+			?>
+			</div>
 			
 	</body>
 

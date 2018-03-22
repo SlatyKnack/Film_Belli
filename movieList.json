@@ -8,7 +8,7 @@
         "year": 1983,
         "lengt": 117,
         "country": "usa",
-        "like": 0,
+        "like": 1,
         "dislike": 0,
         "trailer": "https:\/\/www.youtube.com\/v\/FpYHwjqf22Y",
         "direction": "John Landis",
@@ -31,7 +31,7 @@
         "year": 1990,
         "lengt": 99,
         "country": "usa",
-        "like": 0,
+        "like": 1,
         "dislike": 0,
         "trailer": "https:\/\/www.youtube.com\/v\/FpYHwjqf22Y",
         "direction": "Chris Colun\u00ecmbus",
@@ -67,7 +67,7 @@
         "year": 1999,
         "lengt": 118,
         "country": "usa",
-        "like": 0,
+        "like": 1,
         "dislike": 0,
         "trailer": "https:\/\/www.youtube.com\/v\/FpYHwjqf22Y",
         "direction": "Milos Forman",
@@ -145,5 +145,27 @@
             "Salma Hayek"
         ],
         "plot": "La guardia del corpo Michael Bryce vede la sua carriera stravolta in seguito all'omicidio di un suo cliente.\r\n\t\t\t\t\t   Egli riceve un giorno una chiamata dalla sua ex, l'agente dell'interpol Amelia Roussel che gli chiede aiuto \r\n\t\t\t\t\t   per far arrivare vivo fino al tribunale dell'AIA un importante testimone per il processo a carico di Vladislav Dukhovich,\r\n\t\t\t\t\t   sanguinario dittatore della Bielorussia ormai deposto. Il testimone \u00e8 Darius Kincaid, pericoloso killer di fama internazionale che,\r\n\t\t\t\t\t   ormai in carcere, accetta di testimoniare in cambio dell'assoluzione per la sua compagna, Sonia, ingiustamente detenuta ad Amsterdam."
+    },
+    {
+        "title": {
+            "original": "Fresh Prince of belair",
+            "locale": "Il principe di bel air"
+        },
+        "year": "1990",
+        "lengt": "20",
+        "country": "Amuriica",
+        "direction": "Will smith",
+        "image": "http:\/\/www.reactiongifs.com\/r\/gjsxU0s.gif",
+        "plot": "Its not unusual to get in love with anyone",
+        "like": 1,
+        "dislike": 0,
+        "trailer": "https:\/\/www.youtube.com\/v\/js9LsJ7M6L4",
+        "starring": {
+            "1": "Will smith",
+            "2": "Carlton Banks",
+            "3": false,
+            "4": false,
+            "5": false
+        }
     }
 ]

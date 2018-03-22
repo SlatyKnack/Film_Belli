@@ -98,12 +98,17 @@
 				echo "<p>torna alla <a href='./'>home</a>!</p>";
 				
 				if($_SESSION["logged"])
-					echo "<p><a href='aggiungi.php'>Aggungi film</a></p>";
+					echo "<p><a href='aggiungi.php'>Aggiungi film</a></p>";
 				else{
-					echo "<p><a href='Needed.php?Error=Per+aggiungere+un+nuovo+film+accedere+oppure+iscriversi+!'>Aggungi film</a></p>";
+					echo "<p><a href='Needed.php?Error=Per+aggiungere+un+nuovo+film+accedere+oppure+iscriversi+!'>Aggiungi film</a></p>";
 				}
 
 				?>
+				<div style="position: absolute;  right: 20px; top: 15px;">
+				
+					<b><a href='Iscrizione.php'>Sign in!</a></b><br/>
+					<b><a href='Entra.php'>Log in!</a></b>
+				</div>	
 			
 	</head>
 

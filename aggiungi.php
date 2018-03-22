@@ -64,7 +64,7 @@
 			<form method="GET" action="elaboraAggiunta.php" >
 				<fieldset>
 					<legend>INSERIRE DATI DEL FILM:</legend>
-						<h4>Titiolo</h4>
+						<h4>Titolo</h4>
 							<input type="text" name="original" placeholder="Nome originale" required /><br/>
 							<input type="text" name="locale" placeholder="Nome locale"  required />  
 						<br/>
@@ -104,14 +104,11 @@
 					
 						<input type="submit" value="Inserisci" />
 				</fieldset>
-			</form>
+			</form>	
 			
-			<form action="domande.php" method="POST">
-			
-				
-			</form>
-			
-		</div>
+			<div>
+				<a href="index.php?exit=true">Home!</a>
+			</div>
 			
 	</body>
 

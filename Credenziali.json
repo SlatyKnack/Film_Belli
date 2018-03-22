@@ -10,7 +10,88 @@
                     "like": ""
                 },
                 "Trading Places": {
+                    "like": true
+                },
+                "Home Alone": {
+                    "like": true
+                },
+                "Fresh Prince of belair": {
+                    "like": true
+                }
+            }
+        },
+        "vino": {
+            "Nome": "cose",
+            "Cognome": "cose",
+            "Username": "vino",
+            "Passowrd": "1c0a5940a610cd9dd84a71244ae35ede9b220bfea8c97fc17002b1a8f5fb09f3851f0ea744726a36a6a297484040a8dd36fe6d3adc1d1d50c0909f0bc82f2299",
+            "Films": {
+                "nessunFilm": {
+                    "like": ""
+                }
+            }
+        },
+        "Bescoli": {
+            "Nome": "Beppis",
+            "Cognome": "Scoli",
+            "Username": "Bescoli",
+            "Passowrd": "7cff288292e76bf091c6def796697213482d545da14593e630404c680fb03f881bd3e905a5ebc82022a12db056802b0eaa9f6ad0f0e36de363aeead7f8bfca76",
+            "Films": {
+                "nessunFilm": {
+                    "like": ""
+                },
+                "controllo": {
+                    "like": true
+                }
+            }
+        },
+        "ajeje": {
+            "Nome": "brambilla",
+            "Cognome": "fumagalli",
+            "Username": "ajeje",
+            "Passowrd": "9c13ca08ddcad5dbf5eb08a0841936574cc5e36aaae6605f37130a9e2ce3ba05c4bfd33051fd277a23ca00330fb0b7d15ec40167e28fafe927eea4fcc3ab08ef",
+            "Films": {
+                "nessunFilm": {
+                    "like": ""
+                },
+                "controllo": {
                     "like": false
+                }
+            }
+        },
+        "gino": {
+            "Nome": "Madalin",
+            "Cognome": "Florin",
+            "Username": "gino",
+            "Passowrd": "4d40216c90ab6e4f0182c1c610b1f766225783bc846a6f582ddcc4650f7d2ffa4569d9a5e8e1f633416dfac4a9d9bb76f0115733a8e5d322cc7d23cf68c4ceae",
+            "Films": {
+                "nessunFilm": {
+                    "like": ""
+                }
+            }
+        },
+        "12345": {
+            "Nome": "beppi",
+            "Cognome": "asdafdsd",
+            "Username": "12345",
+            "Passowrd": "cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e",
+            "Films": {
+                "nessunFilm": {
+                    "like": ""
+                }
+            }
+        },
+        "asdfgh": {
+            "Nome": "gino",
+            "Cognome": "asd",
+            "Username": "asdfgh",
+            "Passowrd": "fa585d89c851dd338a70dcf535aa2a92fee7836dd6aff1226583e88e0996293f16bc009c652826e0fc5c706695a03cddce372f139eff4d13959da6f1f5d3eabe",
+            "Films": {
+                "nessunFilm": {
+                    "like": ""
+                },
+                "Man on the Moon": {
+                    "like": true
                 }
             }
         }

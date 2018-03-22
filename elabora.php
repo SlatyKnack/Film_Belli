@@ -34,7 +34,7 @@
 					
 					echo '<table border="1" cellspacing="0" cellpadding="0"  width="100%"> ';
 					echo '<tr>';
-					echo  '<td rowspan="2" ><a href="singleFilm.php?p='.$n.'"><img src='.$moviesList[$n]['image'].' height="198" ></a></td>';   		///Immagine del film
+					echo  '<td rowspan="2" height="198" width="132"><a href="singleFilm.php?p='.$n.'"><img src='.$moviesList[$n]['image'].' height="198" width="132"></a></td>';   		///Immagine del film
 					echo '<td align="left"><b> '.$moviesList[$n]['title']['original'].'</b></td>';		///Titolo Oroginale
 					echo '</tr>';
 					
@@ -109,15 +109,20 @@
 					echo "Il film da lei cercato non puo essere trovato";
 				}
 				
-				echo "<p>torna alla <a href='./'>home</a>!</p>";
+				echo "<p>torna alla <a href='./'>Home!</a><br/>";
 				if($_SESSION["logged"])
-					echo "<p><a href='aggiungi.php'>Aggungi film</a></p>";
+					echo "<a href='aggiungi.php'>Aggiungi film</a></p>";
 				else{
-					echo "<p><a href='Needed.php?Error=Per+aggiungere+un+nuovo+film+accedere+oppure+iscriversi+!'>Aggungi film</a></p>";
+					echo "<p><a href='Needed.php?Error=Per+aggiungere+un+nuovo+film+accedere+oppure+iscriversi+!'>Aggiungi film</a></p>";
 				}
 				
-			?>
 			
+			echo "<div style='relative: absolute;  right: 20px;'>
+				
+				<b><a href='Iscrizione.php'>Sign in!</a></b><br/>
+				<b><a href='Entra.php'>Log in!</a></b>
+			</div>	";
+			?>
 	</head>
 
 </html>
