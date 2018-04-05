@@ -50,6 +50,7 @@
 				
 				$movieList[$i]['title']['original']= $orig;
 				$movieList[$i]['title']['locale']= $loc;
+				$movieList[$i]['n']= $i;
 				$movieList[$i]['year']=$anno;
 				$movieList[$i]['lengt']=$dur;
 				$movieList[$i]['country']=$pae;
